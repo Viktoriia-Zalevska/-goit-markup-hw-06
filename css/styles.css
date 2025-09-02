@@ -1,18 +1,58 @@
 body {
     font-family: 'Roboto', sans-serif;
-    color: #434455;
-    background-color: #FFFFFF;
-    list-style: none;
-    margin: 0;
-    padding: 0;
 }
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+address {
+  font-style: normal;
+}
+
+button {
+  cursor: pointer;
+}
+
 
 /* Контейнер */
 .container {
     width: 1158px;
-    margin: 0 auto;
-    padding: 0 15px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0, 0, 0, 0);
+  overflow: hidden;
+}
+
+
 
 /* Логотип */
 .logo {
@@ -30,17 +70,21 @@ body {
     color: #2e2f42;
 }
 
+.header{
+    padding-bottom: 24px;
+    padding-top: 24px;
+}
 /* Заголовки */
 .section-title {
+    display: block;
     text-align: center;
     background-color: #2E2F42;
-    padding-top: 180px;
-    padding-bottom: 196px;
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 
 .section-title-text {
     display: block;
-   
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
@@ -48,14 +92,9 @@ body {
     color: #FFFFFF;
     text-align: center;
     background-color: #2E2F42;
-}
-
-
-h2 {
-    font-weight: 700;
-    font-size: 36px;
-    letter-spacing: 0.02em;
-    text-align: center;
+     max-width: 496px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Навігація */
@@ -99,7 +138,6 @@ address {
 
 /* Кнопка */
 .button {
-    display: inline-block;
     padding: 12px 24px;
     font-weight: 500;
     font-size: 16px;
@@ -118,6 +156,12 @@ address {
 }
 
 /* Список переваг */
+
+.section-advantages{
+    padding-bottom: 180px;
+    padding-top: 180px;
+}
+
 .advantages-list {
     list-style: none;
     padding: 0;
@@ -141,6 +185,8 @@ address {
 /* Команда */
 .section-team {
     background-color: #F4F4FD;
+    padding-bottom: 120px;
+    padding-top: 120px; 
 }
 
 .section-team ul li {
@@ -167,13 +213,19 @@ address {
     text-align: center;
 }
 
-.team-card,
+.team-card
+
 .portfolio-card {
     list-style: none;
     background-color: #FFFFFF;
 }
 
 /* Портфоліо */
+
+.section-portfolio {
+    padding-bottom: 120px;
+    padding-top: 120px;
+}
 .portfolio-list {
     font-weight: 500;
     font-size: 20px;
@@ -186,6 +238,8 @@ address {
 /* Футер */
 footer {
     background-color: #2E2F42;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .logo-footer {
