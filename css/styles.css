@@ -30,7 +30,6 @@ button {
 }
 
 
-/* Контейнер */
 .container {
     width: 1158px;
     margin-left: auto;
@@ -54,7 +53,7 @@ button {
 
 
 
-/* Логотип */
+/* logo */
 .logo {
     display: flex;
     font-family: "Raleway", sans-serif;
@@ -75,7 +74,7 @@ button {
     padding-bottom: 24px;
     padding-top: 24px;
 }
-/* Заголовки */
+/* title */
 .section-title {
     display: block;
     text-align: center;
@@ -98,7 +97,7 @@ button {
     margin-right: auto;
 }
 
-/* Навігація */
+/* Navigation */
 .nav-list {
     display: flex;
     font-weight: 500;
@@ -115,7 +114,7 @@ button {
     text-decoration: none;
 }
 
-/* Адреса */
+/* Address */
 address {
     font-style: normal;
     color: #434455;
@@ -140,7 +139,7 @@ address {
     text-decoration: none;
 }
 
-/* Кнопка */
+/* Button */
 .button {
     padding: 12px 24px;
     font-weight: 500;
@@ -159,7 +158,7 @@ address {
     background-color: #404BBF;
 }
 
-/* Список переваг */
+/* Adventages */
 
 .section-advantages{
     padding-bottom: 180px;
@@ -188,7 +187,7 @@ address {
     letter-spacing: 0.02em;
 }
 
-/* Команда */
+/* Team */
 .section-team {
     background-color: #F4F4FD;
     padding-bottom: 120px;
@@ -234,7 +233,7 @@ address {
 
 
 
-/* Портфоліо */
+/* Portfolio */
 
 .section-portfolio {
     padding-bottom: 120px;
@@ -270,7 +269,7 @@ address {
 }
 
 
-/* Футер */
+/* Footer */
 footer {
     background-color: #2E2F42;
     padding-top: 100px;
@@ -294,8 +293,11 @@ footer {
 }
 
 .text-footer {
+    display: block;
+    max-width: 264px;
     font-family: 'Roboto', sans-serif;
     color: #F4F4FD;
     letter-spacing: 0.02em;
     line-height: 1.5;
+    padding-top: 16px
 }
