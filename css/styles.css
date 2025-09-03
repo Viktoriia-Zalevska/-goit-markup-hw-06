@@ -240,7 +240,10 @@ address {
     padding-bottom: 120px;
     padding-top: 120px;
 }
-.portfolio-list {
+.portfolio-list-cards {
+     display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -252,6 +255,20 @@ address {
     list-style: none;
     background-color: #FFFFFF;
 }
+.portfolio-list {
+    text-align: left;
+}
+
+.portfolio-list-text{
+    text-align: left;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
 
 /* Футер */
 footer {
