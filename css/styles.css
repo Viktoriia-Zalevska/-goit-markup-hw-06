@@ -286,12 +286,23 @@ button {
     text-align: center;
 }
 .portfolio-card {
+
     flex-wrap: wrap;
     list-style: none;
     background-color: #FFFFFF;
 }
+
+
+
 .portfolio-list {
     text-align: left;
+    border-bottom: 1px solid #e7e9fc;
+border-left: 1px solid #e7e9fc;
+border-right: 1px solid #e7e9fc;
+padding-block: 32px;
+padding-inline: 16px;
+width: 360px;
+height: 120px;
 }
 
 .portfolio-list-text{
