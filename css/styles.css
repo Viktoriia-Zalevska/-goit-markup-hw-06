@@ -29,13 +29,16 @@ button {
   cursor: pointer;
 }
 
+img{
+    display: block;
+}
+
 
 .container {
     width: 1158px;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding: 0 15px
 }
 
  .header-container{
@@ -82,11 +85,12 @@ button {
  
  
     header {
-  display: flex;
+  display: block;
   justify-content: space-between; 
   align-items: center;          
   padding: 20px 40px;
   border: ;
+   border-bottom: 1px solid #e7e9fc;
 }
 
 .nav-header {
@@ -122,6 +126,8 @@ button {
 
 /* Navigation */
 .nav-link {
+    align-items: center;
+    display: flex;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -130,6 +136,8 @@ button {
     text-decoration: none;
 }
 .nav-list {
+    align-items: center;
+    display: flex;
     flex-shrink: 0;
     display: flex;
     gap: 30px;
@@ -151,6 +159,7 @@ button {
 
 .nav-address-menu{
     display: flex;
+
 }
 
 
