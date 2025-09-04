@@ -38,6 +38,13 @@ button {
     padding-right: 15px;
 }
 
+ .header-container{
+    display: flex;
+     align-items: center;
+  justify-content: space-between;
+}
+ 
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -64,6 +71,7 @@ button {
     text-transform: uppercase;
     text-decoration: none;
     color: #4d5ae5;
+    margin-right: auto;
 }
 
 .span-logo-header{
@@ -71,8 +79,20 @@ button {
 }
 
 .header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
     padding-bottom: 24px;
     padding-top: 24px;
+}
+
+.nav-header {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+
+ 
 }
 /* title */
 .section-title {
@@ -84,7 +104,8 @@ button {
 }
 
 .section-title-text {
-    display: block;
+    display: flex;
+    justify-content: space-between;
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
@@ -98,8 +119,7 @@ button {
 }
 
 /* Navigation */
-.nav-list {
-    display: flex;
+.nav-link {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -107,31 +127,48 @@ button {
     color: #2e2f42;
     text-decoration: none;
 }
+.nav-list {
+    flex-shrink: 0;
+    display: flex;
+    gap: 30px;
+}
 
-.nav-list:hover,
-.nav-list:focus {
+.address-list-header{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+     letter-spacing: 0.02em;
+     color: #434455;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-left: 332px;
+    flex-shrink: 0;
+}
+
+.nav-address-menu{
+    display: flex;
+}
+
+
+.nav-link:hover,
+.nav-link:focus {
     color: #404BBF;
     text-decoration: none;
 }
 
 /* Address */
-address {
-    font-style: normal;
-    color: #434455;
-}
+
 
 .nav-address a,
-.address-list {
-    display: flex;
-    justify-content: space-between;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
+.address-list{
     color: #434455;
     text-decoration: none;
     font-style: normal;
 }
+
+
 
 .address-list:hover,
 .address-list:focus {
@@ -251,6 +288,7 @@ address {
     text-align: center;
 }
 .portfolio-card {
+    flex-wrap: wrap;
     list-style: none;
     background-color: #FFFFFF;
 }
