@@ -67,6 +67,10 @@ img{
 /* logo */
 .logo {
     display: flex;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    margin:0 75px 0 0;
+    align-items: center;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -75,7 +79,6 @@ img{
     text-transform: uppercase;
     text-decoration: none;
     color: #4d5ae5;
-    margin-right: auto;
 }
 
 .span-logo-header{
@@ -89,16 +92,9 @@ img{
   justify-content: space-between; 
   align-items: center;          
   padding: 20px 40px;
-  border: ;
-   border-bottom: 1px solid #e7e9fc;
+  border-bottom: 1px solid #e7e9fc;
 }
 
-.nav-header {
-    display: flex;
-    align-items: center;
-    gap: 40px;
-}
- 
 
 /* title */
 .section-title {
@@ -125,9 +121,20 @@ img{
 }
 
 /* Navigation */
-.nav-link {
-    align-items: center;
+
+
+.nav-header {
     display: flex;
+    align-items: center;
+    gap: 40px;
+    text-decoration: none;
+}
+ 
+.nav-link {
+    padding-bottom: 24px;
+    padding-top: 24px;
+    align-items: center;
+    display: block;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -139,7 +146,6 @@ img{
     align-items: center;
     display: flex;
     flex-shrink: 0;
-    display: flex;
     gap: 30px;
 }
 
@@ -153,12 +159,15 @@ img{
     display: flex;
     justify-content: space-between;
     gap: 30px;
-    margin-left: 332px;
+    margin-left: auto;
     flex-shrink: 0;
 }
 
+
 .nav-address-menu{
     display: flex;
+    padding: 24px 0;    
+    gap: 40px;
 
 }
 
@@ -171,12 +180,12 @@ img{
 
 /* Address */
 
-
+ 
 .nav-address a,
 .address-list{
     color: #434455;
     text-decoration: none;
-    font-style: normal;
+    font-style: italic;
 }
 
 
@@ -189,6 +198,12 @@ img{
 
 /* Button */
 .button {
+    border-radius: 4px;
+padding-block: 16px;
+padding-inline: 32px;
+   min-width: 169px;
+    height: 56px;
+    display: block;
     padding: 12px 24px;
     font-weight: 500;
     font-size: 16px;
@@ -201,16 +216,24 @@ img{
     text-align: center;
 }
 
+
 .button:hover,
 .button:focus {
     background-color: #404BBF;
 }
 
+.order-button{
+    display: flex;
+    justify-content: center;
+    padding-top: 48px;
+    align-items: center;
+   height: 56px;
+}
+
 /* Adventages */
 
 .section-advantages{
-    padding-bottom: 180px;
-    padding-top: 180px;
+    padding: 120px 0;
 }
 
 .advantages-list {
@@ -219,6 +242,12 @@ img{
     list-style: none;
     padding: 0;
     margin: 0;
+    gap: 24px;
+}
+
+.advantages-list-item{
+    width: calc((100% - 72px) / 4);
+
 }
 
 .list-title {
@@ -227,6 +256,7 @@ img{
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .list-text {
@@ -255,6 +285,7 @@ img{
     color: #2e2f42;
     text-align: center;
     text-transform: capitalize;
+    margin-bottom: 72px;
 }
 
 .team-card-title {
@@ -264,9 +295,19 @@ img{
     letter-spacing: 0.02em;
     color: #2e2f42;
     text-align: center;
+    margin-bottom: 8px;
+}
+
+.list-text{
+    text-align: center;
 }
 
 .team-card{
+     border-radius: 0px 0px 4px 4px;
+
+}
+.team-card-content {
+padding: 32px 0;
 
 }
 
@@ -276,6 +317,7 @@ img{
     list-style: none;
     padding: 0;
     margin: 0;
+    gap: 24px;
 }   
 
 
@@ -295,6 +337,7 @@ img{
   list-style: none;
   padding: 0;
   margin: 0;
+  row-gap: 48px; 
 }
 
 .portfolio-card {
@@ -352,6 +395,8 @@ footer {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D5AE5;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .span-footer {
