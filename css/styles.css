@@ -39,6 +39,7 @@ img{
     margin-left: auto;
     margin-right: auto;
     padding: 0 15px;
+   
 }
 
  .header-container{
@@ -46,6 +47,7 @@ img{
      align-items: center;
   justify-content: space-between;
   padding-bottom: 1px;
+  padding: 0 15px;
 }
  
 
