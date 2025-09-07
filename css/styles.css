@@ -90,10 +90,8 @@ img{
  
  
     header {
-  display: block;
   justify-content: space-between; 
   align-items: center;          
-  padding: 20px 40px;
   border-bottom: 1px solid #e7e9fc;
 }
 
