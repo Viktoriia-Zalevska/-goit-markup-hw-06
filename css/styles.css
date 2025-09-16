@@ -401,7 +401,7 @@ img{
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: background-color cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250mc cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icons-link-team:hover,
@@ -593,7 +593,7 @@ img{
 
 .team-social-list {
     display: flex;
-    gap: 16px;
+    gap: 24px;
     justify-content: center;
     align-items: center;
     margin-top: 8px; 
@@ -630,5 +630,11 @@ img{
 }
  
 .footer-logo-block{
-     margin-right: 120px
+    margin-right: 120px
+}
+
+.footer-social-list{
+    display: flex;
+    gap: 16px;
+
 }
