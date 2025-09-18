@@ -638,6 +638,8 @@ img{
 
 }
 
+
+
 .backdrop{
     position: fixed;
     top: 0;
@@ -678,4 +680,43 @@ img{
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.2);
     background: #fcfcfc;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1),;
+}
+
+.modal-form{
+    display: flex;
+    position: absolute;
+}
+
+.modal-close{
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    border-radius: 50%;
+}
+
+
+.modal-close:hover,
+.modal-close:focus{
+    fill:#fff;
+    background-color: #404BBF;
+    border: none;
+}
+
+.modal-title{
+    position: absolute;
+    padding-top: 72px;
+   padding-left: 24px;
+   min-width: 360px;
+   
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    text-align: center;
+
+}
+
+.modal-field{
+    display: flex;
+    margin-top: 16px;
+    min-width: 360px;
+    align-items: center;
 }
