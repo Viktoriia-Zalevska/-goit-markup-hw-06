@@ -647,10 +647,11 @@ img{
 .subscribe-title {
     font-weight: 500;
     font-size: 16px;
+    margin-bottom: 16px;
 
-    line-height: 150%;
+    line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #fff;
+    color: #ffff;
 }
 .subscribe-form {
     display: flex;
@@ -659,21 +660,51 @@ img{
 }
 
 .button-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #fff;
+    border: none;
     border-radius: 4px;
-padding-block: 8px;
-padding-inline: 24px;
-width: 165px;
-height: 40px;
+    padding-block: 8px;
+    padding-inline: 24px;
+    min-width: 165px;
+    height: 40px;
+    cursor: pointer;
+    background-color: #4D5AE5;
+    
+}
+
+.icon-subscribe{
+    margin-left: 16px;
+    fill: #fff;
 }
 
 .input-subckribe{
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    padding-left: 16px;
+    border-radius: 4px;
+    color: #ffff;
     border: 1px solid #fff;
-border-radius: 4px;
-width: 264px;
-height: 40px;
-background-color: transparent;
+    border-radius: 4px;
+    width: 264px;
+    height: 40px;
+    background-color: transparent;
 
-box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+}
+
+.input-subckribe::placeholder{
+    color: #ffff;
 }
 
 
@@ -897,14 +928,21 @@ box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 2px;
     fill: transparent;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+     border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
-.modal-checkbox:checked + .checkbox-label .custom-checkbox {
+.modal-checkbox:checked +.checkbox-label
+ .custom-checkbox  {
     background-color: #404bbf;
     border-color: #404bbf;
     fill: #f4f4fd;
+}
+
+.chek-icon{
+    fill: #ffff;
 }
 
 
