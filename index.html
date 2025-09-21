@@ -12,9 +12,6 @@
   <link rel="stylesheet" href="./css/styles.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
-    rel="stylesheet">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
@@ -122,7 +119,7 @@
     
         <ul class="team-cards-list">
           <li class="team-card">
-            <img src="./images/TeamCard1.jpg" alt="Marc Guerrero" width="264">
+            <img src="./images/TeamCard1.jpg" alt="Mark Guerrero" width="264">
             <div class="team-card-content">
               <h3 class="team-card-title">Mark Guerrero</h3>
               <p class="list-text">Product Designer</p>
@@ -197,7 +194,7 @@
             </div>
             </li>
             <li class="team-card">
-            <img src="./images/TeamCard3.jpg" alt="Kamila Garcia" width="264">
+            <img src="./images/TeamCard3.jpg" alt="Camila Garcia" width="264">
             <div class="team-card-content">
               <h3 class="team-card-title">Camila Garcia</h3>
               <p class="list-text">Marketing</p>
@@ -410,17 +407,15 @@
      <div class="subscribe-container">
     <p class="subscribe-title">Subscribe</p>
     <form class="subscribe-form">
-      <label class="label-footer" for="">
-        <input type="email" placeholder="E-mail" class="input-subscribe">
-        <button type="submit" class="button-footer"> Subscribe <svg class="icon-subscribe" width="24" height="24">
-          <use href="./images/icons.svg#icon-subscribe"></use>
-        </svg>
-          
-        </button>
-        </label>
-    </form>
+  <div class="subscribe-field-wrapper"> <label class="label-footer" for="subscribe-email"></label> <input type="email"
+      id="subscribe-email" placeholder="E-mail" class="input-subscribe" name="subscribe-email">
+  </div>
+  <button type="submit" class="button-footer"> Subscribe <svg class="icon-subscribe" width="24" height="24">
+      <use href="./images/icons.svg#icon-subscribe"></use>
+    </svg>
+  </button>
+</form>
 </div>
-      </div>
       </div>
       </footer>
       <div class="backdrop is-open" >
@@ -431,7 +426,6 @@
         </svg>
     </button>
     
-    <div class="modal-content">
         <p class="modal-title">
             Leave your contacts and we will call you back
         </p>
@@ -487,7 +481,6 @@
             
             <button type="submit" class="submit-btn">Send</button>
         </form>
-    </div>
     </div>
 </div>
       <script src="./js/modal.js"></script>
