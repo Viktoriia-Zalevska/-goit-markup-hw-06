@@ -822,7 +822,7 @@ button {
     border-radius: 0 0 4px 4px;
 }
 
-.team-container-text h3 {
+.team-card-title {
     margin-bottom: 8px;
 }
 
@@ -838,7 +838,7 @@ button {
     background-color: #f4f4FD;
 }
 
-.team-section-h-second {
+.team-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
